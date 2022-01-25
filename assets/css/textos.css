@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {font-family: 'Playfair Display', serif; background-color: lightgoldenrodyellow;}
+
+html, body {font-size: 16px;}
+
+
+
+
+ h3 
+	{font-family: 'Playfair Display', serif;}
+
+
+li{ color: black; font-family: 'Cormorant Garamond', serif; }
+
+h2 { color: darkseagreen; }
+
+section {color: grey;}
+
+
+
+h1, h2, h3, h4, h5, h6, { font-family: "dm serif display","Arial bold",sans-serif }
+
+h1, h2, h3, h4, h5, h6 {background-color: lightgoldenrodyellow; border-width: 1em;
+ border-style: groove;   border-spacing: 3em; border-color: palegreen; border-color: grey; 
+border-right-width: 3em; border-radius: 2em;}
+
+ h3, h4,{opacity: 0.3;}
+
+ p, a, strong, em, span, figcaption, q, blockquote { font-family: 'Montserrat', 
+	sans-serif; font-size: 1em; color: #666666;}
+
+
+	h2, strong {color: darkgrey;}
+
+
+
+
+
+h1{font-size: 0.7em;}
+h2{font-size: 3em;}
+h3{font-size: 4em;}
+h4{font-size: 1.1em;}
+h5{font-size: 1em;}
+li{font-size: 0.5.em}
+
+h1, h2, h3, h4, h5, h6 {text-transform: uppercase; color: darkblue;}
+h2{color: forestgreen;}
+
+
+
+figcaption{ font-size: medium;
+font-style: italic; }
+
+p{line-height: 1.2;}
+
+
+
+
+
+
+
