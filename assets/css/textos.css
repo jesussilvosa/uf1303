@@ -9,7 +9,11 @@ body {font-family: 'Playfair Display', serif; background-color: lightgoldenrodye
 
 html, body {font-size: 16px;}
 
+body  main section {padding: 5vw;}
 
+.nota {background-color: lightcoral; padding: 1em;border-left: 0.25em solid darkblue;  border-radius: 5px; }
+
+.nota {font-style: italic; text-transform: capitalize; }
 
 
  h3 
@@ -26,17 +30,17 @@ section {color: grey;}
 
 h1, h2, h3, h4, h5, h6, { font-family: "dm serif display","Arial bold",sans-serif }
 
-h1, h2, h3, h4, h5, h6 {background-color: lightgoldenrodyellow; border-width: 1em;
- border-style: groove;   border-spacing: 3em; border-color: palegreen; border-color: grey; 
-border-right-width: 3em; border-radius: 2em;}
+h1, h2, h3, h4, h5, h6 {background-color: lightgoldenrodyellow; }
 
- h3, h4,{opacity: 0.3;}
+
 
  p, a, strong, em, span, figcaption, q, blockquote { font-family: 'Montserrat', 
 	sans-serif; font-size: 1em; color: #666666;}
 
 
 	h2, strong {color: darkgrey;}
+
+
 
 
 
@@ -58,6 +62,9 @@ figcaption{ font-size: medium;
 font-style: italic; }
 
 p{line-height: 1.2;}
+
+
+
 
 
 
