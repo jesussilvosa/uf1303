@@ -5,70 +5,298 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-body {font-family: 'Playfair Display', serif; background-color: lightgoldenrodyellow;}
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: lightgoldenrodyellow;
+}
 
-html, body {font-size: 16px;}
+html,
+body {
+    font-size: 16px;
+}
 
-body  main section {padding: 5vw;}
+body main section {
+    padding: 5vw;
+}
 
-.nota {background-color: lightcoral; padding: 1em;border-left: 0.25em solid darkblue;  border-radius: 5px; }
+.nota {
+    background-color: lightcoral;
+    padding: 1em;
+    border-left: 0.25em solid darkblue;
+    border-radius: 5px;
+}
 
-.nota {font-style: italic; text-transform: capitalize; }
-
-
- h3 
-	{font-family: 'Playfair Display', serif;}
-
-
-li{ color: black; font-family: 'Cormorant Garamond', serif; }
-
-h2 { color: darkseagreen; }
-
-section {color: grey;}
-
-
-
-h1, h2, h3, h4, h5, h6, { font-family: "dm serif display","Arial bold",sans-serif }
-
-h1, h2, h3, h4, h5, h6 {background-color: lightgoldenrodyellow; }
-
+.nota {
+    font-style: italic;
+    text-transform: capitalize;
+}
 
 
- p, a, strong, em, span, figcaption, q, blockquote { font-family: 'Montserrat', 
-	sans-serif; font-size: 1em; color: #666666;}
+h3 {
+    font-family: 'Playfair Display', serif;
+}
 
 
-	h2, strong {color: darkgrey;}
+li {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+}
 
+h2 {
+    color: darkseagreen;
+}
 
-
-
-
-
-
-h1{font-size: 0.7em;}
-h2{font-size: 3em;}
-h3{font-size: 4em;}
-h4{font-size: 1.1em;}
-h5{font-size: 1em;}
-li{font-size: 0.5.em}
-
-h1, h2, h3, h4, h5, h6 {text-transform: uppercase; color: darkblue;}
-h2{color: forestgreen;}
+section {
+    color: grey;
+}
 
 
 
-figcaption{ font-size: medium;
-font-style: italic; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+    {
+    font-family: "dm serif display", "Arial bold", sans-serif
+}
 
-p{line-height: 1.2;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background-color: lightgoldenrodyellow;
+}
 
 
 
-footer{background-color: black;}
+p,
+a,
+strong,
+em,
+span,
+figcaption,
+q,
+blockquote {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 1em;
+    color: #666666;
+}
+
+
+h2,
+strong {
+    color: darkgrey;
+}
 
 
 
 
 
 
+
+h1 {
+    font-size: 0.7em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+li {
+    font-size: 0.5.em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+h2 {
+    color: forestgreen;
+}
+
+
+
+figcaption {
+    font-size: medium;
+    font-style: italic;
+}
+
+p {
+    line-height: 1.2;
+}
+
+
+
+footer {
+    background-color: black;
+}
+
+.pechado {
+    color: aliceblue
+}
+
+
+/*reglas comunes*/
+
+figure.w3c.css {
+
+    background-image: url('../svg/w3c/css.svg');
+
+}
+
+figure.w3c.css {
+
+    background-image: url('../svg/w3c/css.svg');
+
+}
+
+figure.w3c.wcag {
+
+    background-image: url('../svg/w3c/wcag.svg');
+
+}
+
+
+figure.w3c {
+    width: 88px;
+    height: 32px;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+figure.html5 {
+    width: 88px;
+    height: 32px;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+figure.wcag {
+    width: 88px;
+    height: 32px;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+figure.caja {
+    width: 867px;
+    height: 1300px;
+
+    margin: auto;
+    background-repeat: no-repeat;
+
+    background-color: yellow;
+
+    position: relative;
+
+    background-image: url(https://images.pexels.com/photos/3810967/pexels-photo-3810967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 50% 50%;
+
+
+
+}
+
+
+
+
+article.imagen {
+    width: 867px;
+    height: 1300px;
+
+    margin: auto;
+    background-repeat: no-repeat;
+
+    background-color: blue;
+
+
+
+    opacity: 0.2;
+
+
+
+
+
+}
+
+
+article.imagen {
+    position: relative;
+}
+
+article.imagen h2,
+a rticle iamgen p {
+    text-align: center;
+    color: aliceblue
+}
+
+
+
+
+
+article.imagen:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    content: "";
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/6942349/pexels-photo-6942349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+imagen {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* For IE8 and earlier */
+}
+
+imagen:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
