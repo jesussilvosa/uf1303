@@ -287,16 +287,4 @@ article.imagen:before {
     background-position: 50% 50%;
 }
 
-
-
-imagen {
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-    /* For IE8 and earlier */
-}
-
-imagen:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-    /* For IE8 and earlier */
-}
+article.{ position: absolute; opacity: 0.8}
