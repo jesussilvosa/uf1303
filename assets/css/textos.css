@@ -1,56 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-    font-family: 'Playfair Display', serif;
-    background-color: lightgoldenrodyellow;
+  font-family: 'Playfair Display', serif;
+  background-color: lightgoldenrodyellow;
 }
 
 html,
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body main section {
-    padding: 5vw;
+  padding: 5vw;
 }
 
 .nota {
-    background-color: lightcoral;
-    padding: 1em;
-    border-left: 0.25em solid darkblue;
-    border-radius: 5px;
+  background-color: lightcoral;
+  padding: 1em;
+  border-left: 0.25em solid darkblue;
+  border-radius: 5px;
 }
 
 .nota {
-    font-style: italic;
-    text-transform: capitalize;
+  font-style: italic;
+  text-transform: capitalize;
 }
-
 
 h3 {
-    font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant', serif;
 }
 
-
 li {
-    color: black;
-    font-family: 'Cormorant Garamond', serif;
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 h2 {
-    color: darkseagreen;
+  color: darkseagreen;
 }
 
 section {
-    color: grey;
+  color: grey;
 }
-
-
 
 h1,
 h2,
@@ -58,8 +51,8 @@ h3,
 h4,
 h5,
 h6,
-    {
-    font-family: "dm serif display", "Arial bold", sans-serif
+  {
+  font-family: "dm serif display", "Arial bold", sans-serif
 }
 
 h1,
@@ -68,10 +61,8 @@ h3,
 h4,
 h5,
 h6 {
-    background-color: lightgoldenrodyellow;
+  background-color: lightgoldenrodyellow;
 }
-
-
 
 p,
 a,
@@ -81,46 +72,39 @@ span,
 figcaption,
 q,
 blockquote {
-    font-family: 'Montserrat',
-        sans-serif;
-    font-size: 1em;
-    color: #666666;
+  font-family: 'Montserrat',
+    sans-serif;
+  font-size: 1em;
+  color: #666666;
 }
-
 
 h2,
 strong {
-    color: darkgrey;
+  color: darkgrey;
 }
 
-
-
-
-
-
-
 h1 {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 
 h2 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 h3 {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 h4 {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 h5 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 li {
-    font-size: 0.5.em
+  font-size: 0.5.em
 }
 
 h1,
@@ -129,162 +113,123 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    color: darkblue;
+  text-transform: uppercase;
+  color: darkblue;
 }
 
 h2 {
-    color: forestgreen;
+  color: forestgreen;
 }
 
-
-
 figcaption {
-    font-size: medium;
-    font-style: italic;
+  font-size: medium;
+  font-style: italic;
 }
 
 p {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
-
-
 footer {
-    background-color: black;
+  background-color: black;
 }
 
 .pechado {
-    color: aliceblue
+  color: aliceblue
 }
-
 
 /*reglas comunes*/
-
 figure.w3c.css {
-
-    background-image: url('../svg/w3c/css.svg');
-
+  background-image: url('../svg/w3c/css.svg');
 }
 
 figure.w3c.css {
-
-    background-image: url('../svg/w3c/css.svg');
-
+  background-image: url('../svg/w3c/css.svg');
 }
 
 figure.w3c.wcag {
-
-    background-image: url('../svg/w3c/wcag.svg');
-
+  background-image: url('../svg/w3c/wcag.svg');
 }
 
-
 figure.w3c {
-    width: 88px;
-    height: 32px;
-
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
+  width: 88px;
+  height: 32px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 figure.html5 {
-    width: 88px;
-    height: 32px;
-
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
+  width: 88px;
+  height: 32px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 figure.wcag {
-    width: 88px;
-    height: 32px;
-
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
+  width: 88px;
+  height: 32px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 figure.caja {
-    width: 867px;
-    height: 1300px;
-
-    margin: auto;
-    background-repeat: no-repeat;
-
-    background-color: yellow;
-
-    position: relative;
-
-    background-image: url(https://images.pexels.com/photos/3810967/pexels-photo-3810967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-
-
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    background-position: 50% 50%;
-
-
-
+  width: 867px;
+  height: 1300px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-color: yellow;
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/3810967/pexels-photo-3810967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-
-
-
 article.imagen {
-    width: 867px;
-    height: 1300px;
-
-    margin: auto;
-    background-repeat: no-repeat;
-
-    background-color: blue;
-
-
-
-    opacity: 0.2;
-
-
-
-
-
+  width: 867px;
+  height: 1300px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-color: blue;
+  opacity: 0.2;
 }
 
-
 article.imagen {
-    position: relative;
+  position: relative;
 }
 
 article.imagen h2,
 a rticle iamgen p {
-    text-align: center;
-    color: aliceblue
+  text-align: center;
+  color: aliceblue
 }
-
-
-
-
 
 article.imagen:before {
-    position: absolute;
-    content: "";
-    top: 0px;
-    left: 0px;
-    content: "";
-    position: relative;
-    background-image: url(https://images.pexels.com/photos/6942349/pexels-photo-6942349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  content: "";
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/6942349/pexels-photo-6942349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-article.{ position: absolute; opacity: 0.8}
+h3. {
+  background-color: darkseagreen;
+  position: relative;
+
+}
+
+
+body > footer h2,
+body > footer li,
+footer section.footer__pie h2 {display: none;}
+
+
+body > footer {background-color: black}
